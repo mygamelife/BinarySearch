@@ -21,7 +21,7 @@ int binarySearch (int target, int array[], int startIndex, int endIndex)	{
 		startIndex = midRange + 1;
 	
 	else if(array[midRange] > target)
-		endIndex = midRange;
+		endIndex = midRange - 1;
 		
 		
 	binarySearch (target, array, startIndex, endIndex);
